@@ -6,23 +6,28 @@ div {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
-    text-align: center;
     width: max-content;
 }
+
+input {
+    background-color: #FFF7FB;
+    border: none;
+    border-radius: 5px;
+}
+
 ::placeholder {
     color: #E8CEDA;
 }
 
 a {
     text-decoration: none;
-    
 }
 
 .button {
     background-color: #7A284E;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 100px;
-    padding: 8px;
-    margin: 15px;
+    padding: 5px;
+    margin: 5px;
 }
