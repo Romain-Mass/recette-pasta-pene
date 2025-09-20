@@ -1,3 +1,15 @@
 body {
     background-color: #F3E5D7;
 }
+
+.boite1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.boite2 {
+    background-color: #FFF7FB;
+    padding: 12px;
+}
