@@ -1,7 +1,23 @@
 body {
-    background-color: aqua;
+    background-color: #F3E5D7;
 }
 
+div {
+    background-color: white;
+    padding: 12px;
+}
 ::placeholder {
     color: #E8CEDA;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #7A284E;
+    color: white;
+    border-radius: 10px;
+    border: 25px;
+
 }
