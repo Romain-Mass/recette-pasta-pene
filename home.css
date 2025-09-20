@@ -5,11 +5,25 @@ body {
 .boite1 {
     background-color: white;
     padding: 20px;
+    margin: auto;
     border-radius: 10px;
-    width: max-content;
+    width: 85%;
 }
 
 .boite2 {
     background-color: #FFF7FB;
     padding: 12px;
+}
+
+img {
+    width: auto;
+}
+
+.lien {
+    color: blue;
+    text-decoration: none;
+}
+
+td {
+    padding: 25px;
 }
