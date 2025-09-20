@@ -4,7 +4,10 @@ body {
 
 div {
     background-color: white;
-    padding: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: max-content;
 }
 ::placeholder {
     color: #E8CEDA;
@@ -12,12 +15,14 @@ div {
 
 a {
     text-decoration: none;
+    
 }
 
 .button {
     background-color: #7A284E;
     color: white;
     border-radius: 10px;
-    border: 25px;
-
+    border: 100px;
+    padding: 8px;
+    margin: 15px;
 }
