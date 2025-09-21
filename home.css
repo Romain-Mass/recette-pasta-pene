@@ -41,31 +41,43 @@ td {
     color: #854632;
     font-weight: 600;
     display: flex;
-    
+}
+
+.tag {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 10px;
 }
 
 .vegetarian {
-    background-color: #B5FFAE;
-    width: max-content;
+  background-color: #B5FFAE;
+  color: black;
 }
 
 .italian {
-    background-color: #F0FFAE;
-    width: max-content;
+  background-color: #F0FFAE;
+  color: black;
 }
 
 ol {
     list-style-type: none;
-    counter-reset: item;
+    counter-reset: step;
+    padding-left: 0;
 }
 
 ol li {
-  padding-left: 25px;
+    counter-increment: step;
+    margin-bottom: 1em;
+    position: relative;
+    padding-left: 2em;
 }
 
 ol li::before {
-  content: counter(item) ". ";
-  counter-increment: item;
-  color: #854632;
-  margin: 10px;
+  content: counter(step) ". ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  color: #854632; 
 }
