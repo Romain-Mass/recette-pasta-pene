@@ -36,3 +36,13 @@ td {
     color: #854632;
     font-weight: 600;
 }
+
+.vegetarian {
+    background-color: #B5FFAE;
+    width: max-content;
+}
+
+.italian {
+    background-color: #F0FFAE;
+    width: max-content;
+}
