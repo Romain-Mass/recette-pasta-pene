@@ -39,6 +39,8 @@ td {
 .piste2 {
     color: #854632;
     font-weight: 600;
+    display: flex;
+    
 }
 
 .vegetarian {
