@@ -7,16 +7,20 @@ body {
     padding: 20px;
     margin: auto;
     border-radius: 10px;
-    width: 85%;
+    width: 90%;
 }
 
 .boite2 {
     background-color: #FFF7FB;
     padding: 12px;
+    border-radius: 25px;
 }
 
 img {
-    width: auto;
+    width: 95%;
+    padding: 20px;
+    border-radius: 50px;
+    height: 500px;
 }
 
 .lien {
